@@ -30,5 +30,6 @@ function appendKitten(name) {
 
 function prependKitten(name) {
   var newArr = kittens.splice()
-  newArr.
+  newArr.unshift(name)
+  return newArr
 }
