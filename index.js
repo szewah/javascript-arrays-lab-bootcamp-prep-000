@@ -23,4 +23,5 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  var newArr = kittens.splice(3,0,'')
+  var newArr = kittens.splice(3,0,'Broom')
+}
